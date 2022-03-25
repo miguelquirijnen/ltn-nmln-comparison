@@ -1,0 +1,55 @@
+educated('a')
+educated('b')
+educated('e')
+educated('f')
+educated('n')
+educated('l')
+educated('h')
+educated('i')
+
+wealthy('a')
+wealthy('b')
+# wealthy('c')
+# wealthy('d')
+wealthy('e')
+wealthy('g')
+
+married('a','d')
+married('d','a')
+married('f','n')
+married('n','f')
+married('c','g')
+# married('g','c')
+married('k','l')
+married('l','k')
+Married('j','m')
+
+loan('a')
+loan('c')
+loan('d')
+loan('f')
+loan('g')
+loan('n')
+# loan('l')
+loan('h)
+
+1 2 3 4 5
+b e f n l
+
+0 3 4 8 9 10
+
+
+('Andres', 0), 
+('Bert', 1), 
+('Enrique', 2), 
+('Francisco', 3), 
+('Natalia', 4), 
+('Lisa', 5), 
+('Hunter', 6), 
+('Isabella', 7), 
+('Caro', 8), 
+('Daniella', 9), 
+('Gilo', 10), 
+('Kevin', 11), 
+('James', 12), 
+('Maria', 13)]
