@@ -35,8 +35,8 @@ def main(dataset, num_samples, embedding_size, p_noise, lr, hidden_layers,flips)
 
     d = nmln.Domain("domains", num_constants=len(constants), constants=constants)
     p1 = nmln.Predicate(name="educated", domains=[d])
-    p2 = nmln.Predicate(name="wealthy", domains=[d])
-    p3 = nmln.Predicate(name="married",domains=[d,d])
+    p2 = nmln.Predicate(name="married",domains=[d,d])
+    p3 = nmln.Predicate(name="wealthy", domains=[d])
     p4 = nmln.Predicate(name="loan",domains=[d])
     o = nmln.Ontology(domains=[d], predicates=[p1,p2,p3,p4])
 
@@ -206,7 +206,7 @@ if __name__=="__main__":
 
     TRIALS = [0]
     DATASETS = ["loans"]
-    NUM_SAMPLES = (14,)
+    NUM_SAMPLES = (45,)
     EMBEDDING_SIZES = (0,)
     P_NOISES = (0.,)
     LRS = [1e-2]

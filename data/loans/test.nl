@@ -1,4 +1,4 @@
-Educated(Andres).
-Wealthy(Caro).
-Married(Caro,Gilo).
-Loan(Lisa).
+Educated(Hunter).
+Married(Lisa,Kevin).
+Wealthy(Daniella).
+Loan(Gilo).
