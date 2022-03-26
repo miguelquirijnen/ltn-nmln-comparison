@@ -196,8 +196,6 @@ def main(dataset, num_samples, embedding_size, p_noise, lr, hidden_layers,flips)
                     print()
 
 
-
-
 if __name__=="__main__":
 
     RES = []
@@ -222,9 +220,3 @@ if __name__=="__main__":
             for i in RES:
                 f.write(str(i))
                 f.write("\n")
-
-
-
-
-
-
