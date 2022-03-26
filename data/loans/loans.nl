@@ -20,14 +20,10 @@ Married(Otto,Paola).
 Married(Paola,Otto).
 Married(Quinten,Roos).
 Married(Roos,Quinten).
-Married(Steven,Sara).
-Married(Sara,Steven).
+Married(Timothy,Sara).
+Married(Sara,Timothy).
 Married(Ursula,Vince).
 Married(Vince,Ursula).
-Married(Wannes,Xenia).
-Married(Xenia,Wannes).
-Married(Yens,Zara).
-Married(Zara,Yens).
 Wealthy(Andres).
 Wealthy(Caro).
 Wealthy(Daniella).
@@ -44,6 +40,6 @@ Loan(Gilo).
 Loan(Hunter).
 Loan(Otto).
 Loan(Paola).
-Loan(Steven).
+Loan(Sara).
 Loan(Vince).
 Loan(Ursula).

@@ -1,7 +1,5 @@
-educated => loan
-wealthy => loan
-
-everyone is married to someone
-married people are both wealthy
-married people both get loans
-marriage is symmetric and anti reflexive
+1) marriage is symmetric
+2) marriage is anti reflexive
+3) wealthy or educated => loan
+4) everyone is married to someone
+5) married people are both wealthy

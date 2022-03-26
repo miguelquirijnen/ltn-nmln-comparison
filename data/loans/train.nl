@@ -22,10 +22,6 @@ Married(Steven,Sara).
 Married(Sara,Steven).
 Married(Ursula,Vince).
 Married(Vince,Ursula).
-Married(Wannes,Xenia).
-Married(Xenia,Wannes).
-Married(Yens,Zara).
-Married(Zara,Yens).
 Wealthy(Andres).
 Wealthy(Caro).
 Wealthy(Gilo).
