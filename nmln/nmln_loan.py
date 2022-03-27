@@ -166,7 +166,7 @@ def main(dataset, num_samples, embedding_size, p_noise, lr, hidden_layers,flips)
 
     test_res = 0
     with np.printoptions(precision=2, suppress=True):
-        for i in range(0, 200000):
+        for i in range(0, 5):
             print('start training...')
             samples, positive_potentials, negative_potentials, loss = train_step(i)
             MARG += np.sum(samples, axis=1)
@@ -202,11 +202,11 @@ if __name__=="__main__":
 
     TRIALS = [0]
     DATASETS = ["loans"]
-    NUM_SAMPLES = (41,)
+    NUM_SAMPLES = (10,)
     EMBEDDING_SIZES = (0,)
     P_NOISES = (0.,)
     LRS = [1e-2]
-    HIDDEN_LAYERS = [((30, tf.nn.sigmoid),)]
+    HIDDEN_LAYERS = [((45, tf.nn.sigmoid),)]
     FLIPS = [-1]
 
 
